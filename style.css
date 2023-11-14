@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Audiowide&family=Cabin+Sketch&family=Electrolize&family=Kodchasan:wght@200;300&family=Montserrat&family=Tourney:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Audiowide&family=Cabin+Sketch&family=Electrolize&family=Kodchasan:wght@200;300&family=Montserrat&family=Russo+One&family=Tourney:wght@800&display=swap');
+
+  * {
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.Information {
+    margin: 80px;
+    display: grid;
+    justify-content: center;
+
+}
+
+input[type="email"] {
+    width: 450px;
+    height: 1px;
+    border-radius: 7px;
+    border-style: double;
+    font-size: 17px;
+    padding: 19px 39px;
+}
+
+label {
+    position: absolute;
+    left: 654.6px;
+    top: 270.5px;
+    color: gray;
+}
+
+h2 {
+    font-size: 20px;
+    color: gray;    
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(75, 74, 74);
+    position: absolute;
+    top: 125px;
+    right: 876.8px;
+}
+
+input[type="number"] {
+    width: 450px;
+    height: 1px;
+    border-radius: 7px;
+    border-style:double;
+    font-size: 17px;
+    padding: 19px 39px;
+}
+
+h4 {
+    font-size: 30px;
+    color: rgb(75, 74, 74);
+    margin-bottom: 5px;
+}
+
+#phoneicon {
+    position: absolute;
+    top: 372px;
+    font-weight: 900;
+    left: 654.3px;
+}
+
+#personicon {
+    position: absolute;
+    top: 551.7px;
+    left: 653.3px;
+}
+
+input[type="text"] {
+    width: 450px;
+    height: 1px;
+    border-radius: 7px;
+    border-style: double;
+    font-size: 17px;
+    padding: 19px 39px;
+}
+
+#addressicon {
+    position: absolute;
+    top: 652px;
+    left: 652.3px;
+}
+
+#cityicon {
+    position: absolute;
+    top: 753px;
+    left: 652.3px;
+}
+
+select {
+    width: 200px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    appearance: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#globalicon {
+    position: absolute;
+    top: 852.9px;
+    left: 806.3px;
+    pointer-events: none;
+}
+
+#postalicon {
+    position: absolute;
+    top: 855px;
+    left: 885.8px;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: 919px;
+    left: 642.8px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.rightbar {
+    position: absolute;
+    background-color: rgb(235, 235, 235);
+    width: 30%;
+    height: 82%;
+    right: 40px;
+    top: 153px;
+    border-radius: 20px;
+}
+
+#backpack {
+    position: absolute;
+    width: 215px;
+    height: 255px;
+    border-radius: 17px;
+    left: 37px;
+    top: 35px;
+}
+
+#shoes {
+    position: absolute;
+    top: 50%;
+    width: 215px;
+    border-radius: 17px;
+    height: 255px;
+    left: 37px;
+    top: 330px;
+}
+
+#shoe {
+    position: absolute;
+    right: 128px;
+    font-size: 24px;
+    top: 340px;
+    font-weight: 600;
+    color: rgb(84, 83, 83);
+}
+
+#backbag {
+    position: absolute;
+    right: 50px;
+    font-size: 24px;
+    top: 43px;
+    font-weight: 600;
+    color: rgb(84, 83, 83);
+}
+
+#price1 {
+    position: absolute;
+    right: 177px;
+    font-size: 24px;
+    top: 83px;
+    font-weight: 600;
+    color: rgb(239, 167, 32);
+}
+
+#price2 {
+    position: absolute;
+    right: 177px;
+    font-size: 24px;
+    top: 382px;
+    font-weight: 600;
+    color: rgb(239, 167, 32);
+}
+
+#before1 {
+    position: absolute;
+    right: 177px;
+    font-size: 17px;
+    left: 380px;
+    top: 88px;
+    text-decoration: line-through;
+    color: gray;}
+
+#before2 {
+    position: absolute;
+    right: 177px;
+    font-size: 17px;
+    left: 380px;
+    top: 388px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+#num1 {
+    position: absolute;
+    right: 177px;
+    font-size: 20px;
+    left: 260px;
+    top: 450px;
+    border: 1.5px solid black;
+    padding: 14px 80px;
+    border-radius: 6px;
+    color: gray;
+    position: relative;
+}
+
+#num2 {
+    position: absolute;
+    right: 177px;
+    font-size: 20px;
+    left: 14px;
+    top: 150px;
+    border: 1.5px solid black;
+    padding: 14px 80px;
+    border-radius: 6px;
+    color: gray;
+    position: relative;
+}
+
+#plus1 {
+    position: absolute;
+    right: 177px;
+    font-size: 33px;
+    left: 420px;
+    font-weight: 600;
+    top: 155px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.162);
+    border-radius: 10px;
+    padding: 1px 6px;
+}
+
+#minus1 {
+    position: absolute;
+    right: 177px;
+    font-size: 34px;
+    left: 100px;
+    top: 156px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.162);
+    border-radius: 10px;
+    padding: 1px 9px;
+    
+}
+
+#plus2 {
+    position: absolute;
+    right: 177px;
+    font-size: 35px;
+    font-weight: 600;
+    left: 175px;
+    top: 456px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.162);
+    border-radius: 10px;
+    padding: 1px 6px;
+}
+
+#minus2 {
+    position: absolute;
+    right: 145px;
+    font-size: 34px;
+    font-weight: 600;
+    top: 455.9px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.162);
+    border-radius: 10px;
+    padding: 1px 9px;
+}
+
+#Shipping {
+    position: absolute;
+    top: 670px;
+    left: 50px;
+    font-size: 25px;
+    word-spacing: 270px;
+    text-decoration: overline rgb(190, 186, 186);
+}
+
+#Total {
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    font-size: 25px;
+    word-spacing: 270px;
+    text-decoration: overline rgb(190, 186, 186);
+}
+
+#Tax {
+    position: absolute;
+    top: 735px;
+    left: 50px;
+    font-size: 25px;
+    word-spacing: 339px;
+    text-decoration: overline rgb(190, 186, 186);
+}
+
+#continue a {
+    background-color: rgb(0, 0, 0);
+    padding: 30px 90px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    position: absolute;
+    left: 162px;
+    bottom: 115px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 5px solid rgb(92, 90, 90);
+    transition: 0.4s ease;
+}
+
+#continue a:hover {
+    transform: scale(1.13);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(220, 220, 220);
+}
+
+.leftbar {
+    background-color:rgb(0, 0, 0);
+    width: 200px;
+    height: 900px;
+    padding: 210px;
+    bottom: 1px;
+    right: 1205px;
+    position: absolute;
+}
+
+#thankyou {
+    color: white;
+    font-size: 160px;
+    position: absolute;
+    bottom: 300px;
+    text-align: center;
+    font-family: 'Russo One';
+    right: 20px;
+}
+
+#thankyou1 {
+    color: white;
+    font-size: 20px;
+    right: 220px;
+    bottom: 400px;
+    text-align: center;
+    font-family: 'Russo One';
+    position: absolute;
+}
